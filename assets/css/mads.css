@@ -1,0 +1,15 @@
+.square {
+    background-color: black;
+    box-sizing: content-box;
+    border-bottom-width: 20px;
+    color: white;
+    height: 500px;
+    width: 500px;
+}
+.square:hover {
+    background-color: #1b6d85;
+}
+
+body{
+    background-color: #122b40;
+}

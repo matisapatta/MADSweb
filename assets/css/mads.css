@@ -247,6 +247,33 @@ footer{
     color: gainsboro;
 }
 
+#map{
+    height: 400px;
+}
+
+.overlay {
+    background:transparent;
+    position:relative;
+    width:100%; /* your iframe width */
+    height:300px; /* your iframe height */
+    top:300px; /* your iframe height */
+    margin-top:-300px; /* your iframe height */
+}
+
+.baires{
+    height: 100px;
+    position: relative;
+    font-size: 3em;
+    z-index: 50000;
+    text-align: center;
+    color: black;
+}
+
+.bairesline{
+    text-decoration: overline;
+    color: #1b6d85;
+}
+
 /* Reglas para mobile */
 @media(max-width: 800px){
     .img-main{
@@ -271,6 +298,12 @@ footer{
     }
     body .city{
         font-size: 3em;
+    }
+    body .baires{
+        font-size: 2.5em;
+    }
+    body .bairesline{
+        text-decoration: none;
     }
 }
 

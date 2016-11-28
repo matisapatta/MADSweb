@@ -6,7 +6,7 @@ angular
         'duScroll',
         'ngParallax'
     ])
-    .value('duScrollOffset', 80)
+    .value('duScrollOffset', 60)
     .value('duScrollDuration',1000)
     .controller('contactController',function($scope, $http){
         $scope.mostrar = true;

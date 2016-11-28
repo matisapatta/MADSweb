@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Madsit!</title>
     <meta name="description" content="">
-    <meta name="keywords" content="madsit, mads, software, soluciones it, desarrollo,
-    software factory, apps, development, programacion">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- stylesheets -->
@@ -41,9 +39,9 @@
             </button>
         </div>
         <ul class="nav navbar-nav navbar-right collapse navbar-collapse pull-right">
-            <li><a href="#nosotros"  du-smooth-scroll du-scrollspy>NOSOTROS</a></li>
-            <li><a href="#servicios"  du-smooth-scroll du-scrollspy>SERVICIOS</a></li>
-            <li><a href="#contacto"  du-smooth-scroll du-scrollspy>CONTACTO</a></li>
+            <li><a href="#nosotros"  du-smooth-scroll du-scrollspy>ABOUT US</a></li>
+            <li><a href="#servicios"  du-smooth-scroll du-scrollspy>SERVICES</a></li>
+            <li><a href="#contacto"  du-smooth-scroll du-scrollspy>CONTACT US</a></li>
         </ul>
     </div>
 </div>
@@ -51,7 +49,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 col-xs-12 text-center">
-                <h1 class="main-title">Soluciones IT</h1>
+                <h1 class="main-title">IT Solutions</h1>
             </div>
         </div>
     </div>
@@ -63,12 +61,13 @@
     <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
-                    <div class="lines"><h1 class="text-center">NOSOTROS</h1></div>
+                    <div class="lines"><h1 class="text-center">ABOUT US</h1></div>
                 </div>
                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
-                    <p class="lead">Madsit! fue una idea que surgió a mediados del 2014, al toparnos día a día con necesidades
-                        aún no cubiertas por ninguna aplicación, nuestras ganas de innovar, y nuestra pasión por la tecnología.
-                        Fundada por dos Ingenieros en Informática, el objetivo de Madsit! es transformar las ideas en realidades.
+                    <p class="lead">
+                        Madsit! was born in mid-2014, when we ran into nice-to-have applications not yet developed, our
+                        motivation for innovation and our passion for technology.
+                        Founded by two Computer Engineers, Madsit!'s goal is to transform ideas into reality.
                     </p>
                 </div>
             </div>
@@ -87,26 +86,28 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 col-xs-12">
-                <div class="lines"><h1 class="text-center">SERVICIOS</h1></div>
+                <div class="lines"><h1 class="text-center">SERVICES</h1></div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4 col-xs-12 margin-tb">
                     <p class="fa fa-mobile"></p>
-                    <p class="lead margin">Productos cross-platform, adaptándose a las necesidades propias de cada persona.
-                    La accesibilidad desde cualquier dispositivo es uno de los pilares fundamentales de Madsit!
+                    <p class="lead margin">
+                        Cross-Platform products, fulfilling each person's necessities. Accessibility from
+                        all devices is one of Madsit!'s main pilars.
                     </p>
                 </div>
                 <div class="col-md-4 col-xs-12 margin-tb">
                     <p class="fa fa-check-square"></p>
-                    <p class="lead margin">Soluciones simples, pensadas para cada caso particular, asegurando así
-                    un producto hecho a medida para cada cliente.
+                    <p class="lead margin">
+                        Simple solutions, thought through for each particular scenario, ensuring this way
+                        a taylor-made product for our customers.
                     </p>
 
                 </div>
                 <div class="col-md-4 col-xs-12 margin-tb">
                     <p class="fa fa-superpowers"></p>
-                    <p class="lead margin">Utilizamos tecnologías de vanguardia, asegurando robustez, pero sin descuidar
-                    el diseño, produciendo un agradable look-and-feel en nuestras soluciones.</p>
+                    <p class="lead margin">We use cutting-edge technologies, ensuring solidness, but also
+                        thinking in design, producing a nice look-and-feel in our solutions.</p>
 
                 </div>
 
@@ -122,36 +123,39 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3 col-xs-12 col500 jumbotron margin-tb">
                 <form name="form" class="center-text text-center" ng-show="mostrar">
-                    <p class="contact-par">Si querés ponerte en contacto con nosotros, simplemente completá el formulario y nos comunicaremos a la brevedad!</p>
+                    <p class="contact-par">
+                        To get in touch, simply fill the contact form, and we will contact you shortly!
+                        </p>
                     <div class="form-group">
-                        <input name="name" ng-model="contact.name" type="text" class="form-control" placeholder="Nombre de contacto">
+                        <input name="name" ng-model="contact.name" type="text" class="form-control" placeholder="Contact's name">
                     </div>
                     <div class="form-group">
-                        <input name="phone" ng-model="contact.phone" type="text" class="form-control" placeholder="Teléfono de contacto">
+                        <input name="phone" ng-model="contact.phone" type="text" class="form-control" placeholder="Contact's phone">
                     </div>
                     <div class="form-group">
-                        <input name="email" ng-model="contact.email" type="email" class="form-control" placeholder="E-mail de contacto">
+                        <input name="email" ng-model="contact.email" type="email" class="form-control" placeholder="Contact's email">
                     </div>
                     <div class="form-group">
-            <textarea name="data" ng-model="contact.message" type="text" class="form-control" placeholder="Mensaje" cols="30" rows="5">
+            <textarea name="data" ng-model="contact.message" type="text" class="form-control" placeholder="Message" cols="30" rows="5">
             </textarea>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-warning btn-lg" ng-click="send()">Enviar</button>
+                        <button type="submit" class="btn btn-warning btn-lg" ng-click="send()">Send</button>
                     </div>
                 </form>
-                <p class="contacted center-text text-center" ng-show="!mostrar">Muchas gracias por el contacto, nos comunicaremos a la brevedad.</p>
+                <p class="contacted center-text text-center" ng-show="!mostrar">Thank you for contacting Madsit! We will get in touch in no time!</p>
             </div>
         </div>
     </div>
 </section>
 <section id="map">
-    <div class="bairesline"><div class="baires">Nos encontramos en Buenos Aires, Argentina</div></div>
+    <div class="bairesline"><div class="baires">We're in Buenos Aires, Argentina</div></div>
     <div class="overlay" onClick="style.pointerEvents='none'"></div>
     <iframe class="map" width="100%" height="300" frameborder="0" style="border:0"
             src="https://www.google.com/maps/embed/v1/view?zoom=14&center=-34.5975788,-58.460424&key=AIzaSyCES5iqcZ9YN_XRl4M57TEgVPNqE3Porio" allowfullscreen>
     </iframe>
 </section>
+
 
 <footer class="footer">
     <div class="container-fluid">
@@ -177,7 +181,7 @@
         </div>
         <div class="row copyright">
             <div class="col-md-12 col-xs-12 text-center">
-                2014<i class="fa fa-fw fa-copyright"></i> Madsit!. Todos los derechos reservados.
+                2014<i class="fa fa-fw fa-copyright"></i> Madsit!. All rights reserved.
             </div>
         </div>
     </div>

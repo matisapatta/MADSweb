@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03c16a4d-a512-4fb8-bdfb-721695784668" name="Default" comment=".">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/english.html" />
+    <list default="true" id="03c16a4d-a512-4fb8-bdfb-721695784668" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/mads.css" afterPath="$PROJECT_DIR$/assets/css/mads.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/MADSapp.js" afterPath="$PROJECT_DIR$/assets/js/MADSapp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/english.html" afterPath="$PROJECT_DIR$/english.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="MADSWeb.iws" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="108" column="93" selection-start-line="107" selection-start-column="43" selection-end-line="108" selection-end-column="93" />
+            <state relative-caret-position="250">
+              <caret line="169" column="121" selection-start-line="169" selection-start-column="121" selection-end-line="169" selection-end-column="121" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="english.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="english.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/english.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="109" column="91" selection-start-line="109" selection-start-column="91" selection-end-line="109" selection-end-column="91" />
+            <state relative-caret-position="2595">
+              <caret line="173" column="121" selection-start-line="173" selection-start-column="121" selection-end-line="173" selection-end-column="121" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -54,8 +53,8 @@
       <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -71,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MADSapp.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MADSapp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/MADSapp.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -84,7 +83,7 @@
       <file leaf-file-name="mads.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/mads.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="3885">
               <caret line="259" column="19" selection-start-line="259" selection-start-column="19" selection-end-line="259" selection-end-column="19" />
               <folding />
             </state>
@@ -117,6 +116,7 @@
         <option value="$PROJECT_DIR$/assets/js/vendor/ngParallax.js" />
         <option value="$PROJECT_DIR$/assets/css/mads.css" />
         <option value="$PROJECT_DIR$/assets/js/MADSapp.js" />
+        <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/english.html" />
       </list>
@@ -380,7 +380,9 @@
       <workItem from="1479342348449" duration="13458000" />
       <workItem from="1479469205380" duration="3821000" />
       <workItem from="1479480870518" duration="1230000" />
-      <workItem from="1480371597356" duration="784000" />
+      <workItem from="1480371597356" duration="861000" />
+      <workItem from="1482174411065" duration="56000" />
+      <workItem from="1487718061269" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1462310843487</created>
@@ -417,11 +419,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479411749822</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".">
+      <created>1480372528833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1480372528833</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22007000" />
+    <option name="totallyTimeSpent" value="22242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -851,14 +860,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/whatwedo.png" />
-    <entry file="file://$PROJECT_DIR$/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/vendor/ngParallax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -867,29 +868,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="108" column="93" selection-start-line="107" selection-start-column="43" selection-end-line="108" selection-end-column="93" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/english.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="109" column="91" selection-start-line="109" selection-start-column="91" selection-end-line="109" selection-end-column="91" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/mads.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="3885">
           <caret line="259" column="19" selection-start-line="259" selection-start-column="19" selection-end-line="259" selection-end-column="19" />
           <folding />
         </state>
@@ -900,6 +881,34 @@
         <state relative-caret-position="120">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="169" column="121" selection-start-line="169" selection-start-column="121" selection-end-line="169" selection-end-column="121" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/english.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2595">
+          <caret line="173" column="121" selection-start-line="173" selection-start-column="121" selection-end-line="173" selection-end-column="121" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
